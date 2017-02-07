@@ -1,0 +1,37 @@
+{
+  "name": "epfremme/form-test",
+  "type": "library",
+  "description": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "epfremme",
+      "email": "epfremme@nerdery.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Epfremme\\FormTest\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Epfremme\\FormTest\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=5.5.9",
+    "symfony/form": "^3.2",
+    "twig/twig": "^1.28",
+    "symfony/twig-bridge": "^3.2",
+    "symfony/translation": "^3.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.0|^5.0",
+    "satooshi/php-coveralls": "^1.0",
+    "mockery/mockery": "^0.9.6"
+  },
+  "config": {
+    "bin-dir": "bin/"
+  }
+}
